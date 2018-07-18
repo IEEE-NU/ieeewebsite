@@ -1,0 +1,33 @@
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 100%;
+    /*this is the line that helped me get rid of the white space at the start of my nav */
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+i{
+    font-size: 2rem;
+    color: #555;
+}
+
+i:hover{
+    color: rgb(078, 042, 132);
+}
+.active>i{
+    color: rgb(078, 042, 132);
+    font-size: 3rem;
+}
+
+.navbar{
+    margin-bottom: -5rem;
+}

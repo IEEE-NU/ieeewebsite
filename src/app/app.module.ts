@@ -1,24 +1,27 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { routing } from './app.routing';
+
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { ExploreComponent } from './explore/explore.component';
 import { EducateComponent } from './educate/educate.component';
+import { ExploreComponent } from './explore/explore.component';
 import { EngageComponent } from './engage/engage.component';
-import { NavbarComponent } from './component/navbar/navbar.component';
-import { FooterComponent } from './component/footer/footer.component';
+
+import { routing } from './app.routing';
+
+import { FooterComponent } from './components/footer/footer.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ExploreComponent,
     EducateComponent,
+    ExploreComponent,
     EngageComponent,
+    FooterComponent,
     NavbarComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule, routing

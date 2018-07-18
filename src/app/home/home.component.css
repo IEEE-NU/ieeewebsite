@@ -1,0 +1,57 @@
+/*HERO*/
+
+#main {
+    background: rgb(078, 042, 132);
+    background-image: radial-gradient(circle, #5b3b8c, #58378a, #553388, #512e86, #4e2a84);
+}
+
+#hero {
+    display: flex;
+    /* establish flex container */
+    flex-direction: column;
+    /* stack flex items vertically */
+    justify-content: center;
+    /* center items vertically, in this case */
+    align-items: center;
+    /* center items horizontally, in this case */
+    height: 70vh;
+    text-align: center;
+    color: #eeeeee;
+}
+
+#ieee-logo {
+    height: 10rem;
+    width: 10rem;
+}
+
+#title {
+    margin-top: 1rem;
+}
+
+#tagline {
+    margin-top: 1rem;
+    color: #eeeeee;
+}
+
+/*WHO WE ARE*/
+
+.about-us {
+    text-align: left;
+}
+
+/*WHAT WE DO*/
+
+.fas {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    color: #555;
+}
+
+.what {
+    text-align: center;
+}
+
+.hidden{
+    visibility: hidden;
+}
