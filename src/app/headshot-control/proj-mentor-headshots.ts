@@ -68,7 +68,7 @@ export const projmentorheadshots: headshotItem[] = [
     {
         img: 'assets/headshots/Isaac.JPG',
         name: 'Isaac Lee',
-        position: 'Hardware',
+        position: 'Chatbot',
         alt: 'Pictured: Isaac Lee, Chatbot',
     },
 

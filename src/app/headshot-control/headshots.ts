@@ -38,7 +38,7 @@ export const headshotItems: headshotItem[] = [
     },
     // Tyler
     {
-        img: 'assets/headshots/tyler4.jpg',
+        img: 'assets/headshots/tyler.jpg',
         name: 'Tyler Rodgers',
         position: 'Webmaster',
         alt: 'Pictured: Tyler Rodgers, Webmaster',
