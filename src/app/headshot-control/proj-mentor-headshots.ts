@@ -1,12 +1,54 @@
 import { headshotItem } from './headshotItem';
 
 export const projmentorheadshots: headshotItem[] = [
-    // Shankar
+    // Kevin
     {
-        img: 'assets/headshots/Shankar.JPG',
-        name: 'Shankar Salwan',
+        img: 'assets/headshots/kevin_lee.jpg',
+        name: 'Kevin Lee',
+        position: 'App Development',
+        alt: 'Pictured: Kevin Lee, App Development',
+    },
+    // Kim
+    {
+        img: 'assets/headshots/kim.jpg',
+        name: 'Kimberly Kwon',
+        position: 'App Development',
+        alt: 'Pictured: Kimberly Kwon, App Development',
+    },
+    // Aaron
+    {
+        img: 'assets/headshots/aaron.JPG',
+        name: 'Aaron Kaneti',
+        position: 'App Development',
+        alt: 'Pictured: Aaron Kaneti, App Development',
+    },
+    // Ka
+    {
+        img: 'assets/headshots/ka.jpg',
+        name: 'Ka Wong',
+        position: 'App Development',
+        alt: 'Pictured: Ka Wong, App Development',
+    },
+    // Tommy
+    {
+        img: 'assets/headshots/tommy.jpg',
+        name: 'Thomas Li',
         position: 'Web Development',
-        alt: 'Pictured: Shankar Salwan, Web Development',
+        alt: 'Pictured: Thomas Li, Web Development',
+    },
+    // Jason
+    {
+        img: 'assets/headshots/jason_liu.jpg',
+        name: 'Jason Liu',
+        position: 'Web Development',
+        alt: 'Pictured: Jason Liu, Web Development',
+    },
+    // Tyler
+    {
+        img: 'assets/headshots/tyler.jpg',
+        name: 'Tyler Rodgers',
+        position: 'Web Development',
+        alt: 'Pictured: Tyler Rodgers, Web Development',
     },
     // Sanfeng
     {
@@ -15,19 +57,62 @@ export const projmentorheadshots: headshotItem[] = [
         position: 'Web Development',
         alt: 'Pictured: Sanfeng Wang, Web Development',
     },
-    // Kevin
+    // David
     {
-        img: 'assets/headshots/kevin_lee.jpg',
-        name: 'Kevin Lee',
+        img: 'assets/headshots/david.jpg',
+        name: 'David Ding',
         position: 'Web Development',
-        alt: 'Pictured: Kevin Lee, Web Development',
+        alt: 'Pictured: David Ding, Web Development',
     },
-    // Conway
+    // Mitchell
     {
-        img: 'assets/headshots/Conway.JPG',
-        name: 'Conway Zhu',
+        img: 'assets/headshots/mitchell.jpg',
+        name: 'Mitchell Smith',
         position: 'Web Development',
-        alt: 'Pictured: Conway Zhu, Web Development',
+        alt: 'Pictured: Mitchell Smith, Web Development',
+    },
+    // Kenneth
+    {
+        img: 'assets/headshots/kenneth.jpg',
+        name: 'Kenneth Gomez',
+        position: 'Web Development',
+        alt: 'Pictured: Kenneth Gomez, Web Development',
+    },
+    // Harrison
+    {
+        img: 'assets/headshots/harrison.jpg',
+        name: 'Harrison Pearl',
+        position: 'Alexa/IoT',
+        alt: 'Pictured: Harrison Pearl, Alexa/IoT',
+    },
+    // Josh
+    {
+        img: 'assets/headshots/josh.jpg',
+        name: 'Josh Chen',
+        position: 'Alexa/IoT',
+        alt: 'Pictured: Josh Chen, Alexa/IoT',
+    },
+    // Shankar
+    {
+        img: 'assets/headshots/Shankar.JPG',
+        name: 'Shankar Salwan',
+        position: 'Data Visualization',
+        alt: 'Pictured: Shankar Salwan, Data Visualization',
+    },
+
+    // Itay
+    {
+        img: 'assets/headshots/itay.jpg',
+        name: 'Itay Golan',
+        position: 'Machine Learning/Computer Vision',
+        alt: 'Pictured: Itay Golan, Machine Learning/Computer Vision',
+    },
+    // Vishal
+    {
+        img: 'assets/headshots/vishal.jpg',
+        name: 'Vishal Giridhar',
+        position: 'Machine Learning/Computer Vision',
+        alt: 'Pictured: Vishal Giridhar, Machine Learning/Computer Vision',
     },
     // Curtis
     {
@@ -36,40 +121,12 @@ export const projmentorheadshots: headshotItem[] = [
         position: 'Hardware',
         alt: 'Pictured: Curtis Wang, Hardware',
     },
-    // Jessica
+    // Kendall
     {
-        img: 'assets/headshots/Jessica.JPG',
-        name: 'Jessica Li',
+        img: 'assets/headshots/kendall.jpg',
+        name: 'Kendall Kuzminskas',
         position: 'Hardware',
-        alt: 'Pictured: Jessica Li, Hardware',
-    },
-    // William
-    {
-        img: 'assets/headshots/william_su.jpg',
-        name: 'William Su',
-        position: 'Hardware',
-        alt: 'Pictured: William Su, Hardware',
-    },
-    // Jared
-    {
-        img: 'assets/headshots/jared.jpg',
-        name: 'Jared Fernandez',
-        position: 'Machine Learning/NLP',
-        alt: 'Pictured: Jared Fernandez, Machine Learning/NLP',
-    },
-    // Larry
-    {
-        img: 'assets/headshots/larry.jpg',
-        name: 'Larry Zhao',
-        position: 'Game Development',
-        alt: 'Pictured: Larry Zhao, Game Development',
-    },
-    // Isaac
-    {
-        img: 'assets/headshots/Isaac.JPG',
-        name: 'Isaac Lee',
-        position: 'Chatbot',
-        alt: 'Pictured: Isaac Lee, Chatbot',
+        alt: 'Pictured: Kendall Kuzminskas, Hardware',
     },
 
 ];
