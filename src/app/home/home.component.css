@@ -19,6 +19,10 @@
     color: #eeeeee;
 }
 
+#apply-link:hover {
+    color: rgb(078, 042, 132);
+}
+
 #ieee-logo {
     height: 10rem;
     width: 10rem;
