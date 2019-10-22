@@ -1,6 +1,19 @@
 # Ieeewebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8 --> version 8. Make sure to use v8 or this will break.
+
+## Installation
+Make sure you get the Angular CLI and all other necessary packages.
+```
+git clone https://github.com/IEEE-NU/ieeewebsite
+npm install
+```
+
+## Deployment
+After building, you can run this node script which can be run as a bash script. Make sure you run it in the main directory.
+```
+$ ./deploy.js
+```
 
 ## Development server
 
