@@ -3,6 +3,7 @@
 
 require('dotenv').config();
 const SSHCLIENT = require('ssh2').Client
+const ssh_client = new SSHCLIENT();
 const scp_client = require('scp2')
 
 if (!(process.env.SERVER_NAME && process.env.SERVER_USER && process.env.SERVER_PASSWORD)) {
@@ -10,11 +11,9 @@ if (!(process.env.SERVER_NAME && process.env.SERVER_USER && process.env.SERVER_P
     process.exit(1);
 }
 
-// run();
-deploy();
+run();
 
 function run() {
-    const ssh_client = new SSHCLIENT();
     ssh_client.on('ready', clean_previous_build).connect({
         host: process.env.SERVER_NAME,
         username: process.env.SERVER_USER,
@@ -52,6 +51,7 @@ function deploy() {
         password: process.env.SERVER_PASSWORD,
         path: "/home/ieee/public_html/"
     }, function(err) {
-        console.log(err);
+        console.log("Finished!");
+        
     })
 }
