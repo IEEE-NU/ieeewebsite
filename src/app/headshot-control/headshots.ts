@@ -45,7 +45,7 @@ export const headshotItems: headshotItem[] = [
   },
   // James
   {
-    img: "assets/headshots/empty.jpg",
+    img: "assets/headshots/james.jpg",
     name: "James Liu",
     position: "Co-Social Chair",
     alt: "Pictured: James Liu, Co-Social Chair",
