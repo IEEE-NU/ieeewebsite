@@ -31,7 +31,7 @@ export const headshotItems: headshotItem[] = [
   },
   // Nicole
   {
-    img: "assets/headshots/blank.JPG",
+    img: "assets/headshots/blank.jpg",
     name: "Nicole Wojcik",
     position: "Secretary",
     alt: "Pictured: Nicole Wojcik, Secretary",
@@ -52,14 +52,14 @@ export const headshotItems: headshotItem[] = [
   },
   // Molly
   {
-    img: "assets/headshots/molly.JPG",
+    img: "assets/headshots/molly.jpg",
     name: "Molly Schneck",
     position: "Co-Social Chair",
     alt: "Pictured: Molly Schneck, Co-Social Chair",
   },
   // Linus
   {
-    img: "assets/headshots/empty.jpg",
+    img: "assets/headshots/blank.jpg",
     name: "Linus Okoth",
     position: "Publicity Chair",
     alt: "Pictured: Linus Okoth, Publicity Chair",
