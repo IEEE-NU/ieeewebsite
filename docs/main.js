@@ -552,92 +552,77 @@ var HeadshotService = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "headshotItems", function() { return headshotItems; });
 var headshotItems = [
-    // Karan
-    {
-        img: "assets/headshots/karan.jpg",
-        name: "Karan Bhasin",
-        position: "President",
-        alt: "Pictured: Karan Bhasin, President",
-    },
-    // Utkarsh
-    {
-        img: "assets/headshots/utkarsh.jpg",
-        name: "Utkarsh Mishra",
-        position: "Vice-President",
-        alt: "Pictured: Utkarsh Mishra, Vice-President",
-    },
-    // Aimee
-    {
-        img: "assets/headshots/aimee.jpg",
-        name: "Aimee van den Berg",
-        position: "Technical Program Director",
-        alt: "Pictured: Aimee van den Berg, Technical Program Director",
-    },
-    // Romir
-    {
-        img: "assets/headshots/romir.jpg",
-        name: "Romir Hysko",
-        position: "Treasurer",
-        alt: "Pictured: Romir Hysko, Treasurer ",
-    },
-    // Sisilia
-    {
-        img: "assets/headshots/sisilia.JPG",
-        name: "Sisilia Sinaga",
-        position: "Secretary",
-        alt: "Pictured: Sisilia Sinaga, Secretary",
-    },
-    // Andy
-    {
-        img: "assets/headshots/andy.jpg",
-        name: "Andy Xu",
-        position: "Webmaster",
-        alt: "Pictured: Andy Xu, Webmaster",
-    },
-    // Evan
-    {
-        img: "assets/headshots/evan.jpg",
-        name: "Evan Costa",
-        position: "Membership Chair",
-        alt: "Pictured: Evan Costa, Membership Chair",
-    },
-    // Jonathan
-    {
-        img: "assets/headshots/jonathan.jpg",
-        name: "Jonathan Liu",
-        position: "Co-Social Chair",
-        alt: "Pictured: Jonathan Liu, Co-Social Chair",
-    },
-    // Vikram
-    {
-        img: "assets/headshots/vikram.JPG",
-        name: "Vikram Thanigaivelan ",
-        position: "Co-Social Chair",
-        alt: "Pictured: Vikram Thanigaivelan , Co-Social Chair",
-    },
-    // Tony
-    {
-        img: "assets/headshots/tony.jpg",
-        name: "Tony Bayvas",
-        position: "Co-Publicity Chair",
-        alt: "Pictured: Tony Bayvas, Co-Publicity Chair",
-    },
-    // Evans
-    {
-        img: "assets/headshots/evans.jpeg",
-        name: "Evans Dingwizat",
-        position: "Co-Publicity Chair",
-        alt: "Pictured: Evans Dingwizat, Co-Publicity Chair",
-    },
-    // Shourya
-    {
-        img: "assets/headshots/shourya.jpg",
-        name: "Shourya Agarwal",
-        position: "Outreach Chair",
-        alt: "Pictured: Shourya Agarwal, Outreach Chair",
-    },
+   // Amil
+   {
+    img: "assets/headshots/amil.jpg",
+    name: "Amil Dravid",
+    position: "Co-President",
+    alt: "Pictured: Amil Dravid, Co-President",
+  },
+  // Jerry
+  {
+    img: "assets/headshots/blank.jpg",
+    name: "Jerry Okina",
+    position: "Co-President",
+    alt: "Pictured: Jerry Okina, Co-President",
+  },
+  // Si Woo
+  {
+    img: "assets/headshots/siwoo.jpg",
+    name: "Si Woo Kim",
+    position: "Technical Program Director",
+    alt: "Pictured: Si Woo Kim, Technical Program Director",
+  },
+  // Tim
+  {
+    img: "assets/headshots/tim.jpg",
+    name: "Timothy Sinaga",
+    position: "Treasurer",
+    alt: "Pictured: Timothy Sinaga, Treasurer",
+  },
+  // Nicole
+  {
+    img: "assets/headshots/blank.jpg",
+    name: "Nicole Wojcik",
+    position: "Secretary",
+    alt: "Pictured: Nicole Wojcik, Secretary",
+  },
+  // Sengdao
+  {
+    img: "assets/headshots/sengdao.jpg",
+    name: "Sengdao Inthavong",
+    position: "Webmaster",
+    alt: "Pictured: Sengdao Inthavong, Webmaster",
+  },
+  // James
+  {
+    img: "assets/headshots/james.jpg",
+    name: "James Liu",
+    position: "Co-Social Chair",
+    alt: "Pictured: James Liu, Co-Social Chair",
+  },
+  // Molly
+  {
+    img: "assets/headshots/molly.jpg",
+    name: "Molly Schneck",
+    position: "Co-Social Chair",
+    alt: "Pictured: Molly Schneck, Co-Social Chair",
+  },
+  // Linus
+  {
+    img: "assets/headshots/linus.jpg",
+    name: "Linus Okoth",
+    position: "Publicity Chair",
+    alt: "Pictured: Linus Okoth, Publicity Chair",
+  },
+  // Harita
+  {
+    img: "assets/headshots/harita.jpg",
+    name: "Harita Duggirala",
+    position: "Outreach Chair",
+    alt: "Pictured: Harita Duggirala, Outreach Chair",
+  },
 ];
-
 
 /***/ }),
 
@@ -801,7 +786,7 @@ module.exports = "/*HERO*/\r\n\r\n#main {\r\n  background: rgb(078, 042, 132);\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<title>IEEE Northwestern | Home</title>\r\n<!--HERO-->\r\n<div class=\"animate fadeIn\">\r\n  <div id=\"main\">\r\n    <div class=\"container\">\r\n      <div id=\"hero\">\r\n        <embed\r\n          class=\"hidden\"\r\n          id=\"ieee-logo\"\r\n          type=\"image/svg+xml\"\r\n          src=\"assets/svg/ieee-white.svg\"\r\n        />\r\n        <h1 class=\"hidden\" id=\"title\">IEEE at Northwestern University</h1>\r\n        <h2 class=\"hidden\" id=\"tagline\">\r\n          <small>\r\n            <strong> Educate. Explore. Engage.</strong>\r\n          </small>\r\n        </h2>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <!--Who We Are-->\r\n  <div class=\"container about-us\">\r\n    <div class=\"row\">\r\n      <div class=\"col-md-6\">\r\n        <h2 id=\"abt-title\">Who We Are</h2>\r\n        <p>\r\n          The Northwestern University Student Chapter of the Institute of\r\n          Electrical and Electronics Engineers (IEEE NU) is an organization\r\n          dedicated to providing the resources and outlets through which the\r\n          University's aspiring engineers, tinkerers, and hackers can learn and\r\n          create with their craft. Our chapter is directly supported and funded\r\n          by Northwestern University's\r\n          <a target=\"_blank\" href=\"http://www.mccormick.northwestern.edu/eecs/\">\r\n            <strong> Electrical Engineering and Computer Science</strong>\r\n          </a>\r\n          (EECS) department.\r\n        </p>\r\n      </div>\r\n      <div class=\"col-md-6\">\r\n        <img class=\"img-fluid\" src=\"assets/ieee_photos/badhacks/team.JPG\" />\r\n      </div>\r\n    </div>\r\n    <hr />\r\n  </div>\r\n\r\n  <!--What We Do-->\r\n\r\n  <div class=\"container what\">\r\n    <h2 id=\"what-title\">What We Do</h2>\r\n    <div class=\"row\">\r\n      <div class=\"col-md-4\">\r\n        <i class=\"fas fa-lightbulb\"></i>\r\n        <h3>Educate</h3>\r\n        <p>\r\n          IEEE co-hosts educational CS events with other groups on campus and\r\n          provides hands-on training that is supplemental to Northwestern's\r\n          education in areas like web development and career prep. HackNights\r\n          include presentations with hands-on coding activities, as well as\r\n          catered food for attendees.\r\n        </p>\r\n        <a class=\"btn btn-outline-secondary\" href=\"/educate\" role=\"button\"\r\n          >Learn More</a\r\n        >\r\n      </div>\r\n      <div class=\"col-md-4\">\r\n        <i id=\"compass\" class=\"fas fa-compass\"></i>\r\n        <h3>Explore</h3>\r\n        <p>\r\n          Every year, IEEE helps motivated students develop a side project under\r\n          the leadership of a student mentor. This program provides students\r\n          with the opportunity to gain experience in computer science and become\r\n          a member of IEEE. These projects are then entered in a showcase open\r\n          to all Northwestern students.\r\n        </p>\r\n        <a class=\"btn btn-outline-secondary\" href=\"/explore\" role=\"button\"\r\n          >Learn More</a\r\n        >\r\n      </div>\r\n      <div class=\"col-md-4\">\r\n        <i class=\"fas fa-comments\"></i>\r\n        <h3>Engage</h3>\r\n        <p>\r\n          It is important that IEEE connects with the greater Northwestern\r\n          community, both to foster relationships between the organization and\r\n          other students, as well as ensure that students know what\r\n          opportunities are available to them in computer science. Many of\r\n          IEEE's events are open to all Northwestern students.\r\n        </p>\r\n        <a class=\"btn btn-outline-secondary\" href=\"/engage\" role=\"button\"\r\n          >Learn More</a\r\n        >\r\n      </div>\r\n    </div>\r\n    <hr />\r\n  </div>\r\n\r\n  <!--Exec headshots-->\r\n\r\n  <div class=\"container\">\r\n    <h2 class=\"exec-title\">\r\n      Executive Board\r\n      <br />\r\n      <small>2020-2021</small>\r\n    </h2>\r\n    <div class=\"row\">\r\n      <div *ngFor=\"let headshotItem of headshotItems\" class=\"col-md-4 mem\">\r\n        <img src=\"{{ headshotItem.img }}\" alt=\"{{ headshotItem.alt }}\" />\r\n        <h5 class=\"mem-name\">{{ headshotItem.name }}</h5>\r\n        <p class=\"mem-position\">{{ headshotItem.position }}</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <!--FOOTER-->\r\n  <app-footer></app-footer>\r\n</div>\r\n"
+module.exports = "<title>IEEE Northwestern | Home</title>\r\n<!--HERO-->\r\n<div class=\"animate fadeIn\">\r\n  <div id=\"main\">\r\n    <div class=\"container\">\r\n      <div id=\"hero\">\r\n        <embed\r\n          class=\"hidden\"\r\n          id=\"ieee-logo\"\r\n          type=\"image/svg+xml\"\r\n          src=\"assets/svg/ieee-white.svg\"\r\n        />\r\n        <h1 class=\"hidden\" id=\"title\">IEEE at Northwestern University</h1>\r\n        <h2 class=\"hidden\" id=\"tagline\">\r\n          <small>\r\n            <strong> Educate. Explore. Engage.</strong>\r\n          </small>\r\n        </h2>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <!--Who We Are-->\r\n  <div class=\"container about-us\">\r\n    <div class=\"row\">\r\n      <div class=\"col-md-6\">\r\n        <h2 id=\"abt-title\">Who We Are</h2>\r\n        <p>\r\n          The Northwestern University Student Chapter of the Institute of\r\n          Electrical and Electronics Engineers (IEEE NU) is an organization\r\n          dedicated to providing the resources and outlets through which the\r\n          University's aspiring engineers, tinkerers, and hackers can learn and\r\n          create with their craft. Our chapter is directly supported and funded\r\n          by Northwestern University's\r\n          <a target=\"_blank\" href=\"http://www.mccormick.northwestern.edu/eecs/\">\r\n            <strong> Electrical Engineering and Computer Science</strong>\r\n          </a>\r\n          (EECS) department.\r\n        </p>\r\n      </div>\r\n      <div class=\"col-md-6\">\r\n        <img class=\"img-fluid\" src=\"assets/ieee_photos/badhacks/team.JPG\" />\r\n      </div>\r\n    </div>\r\n    <hr />\r\n  </div>\r\n\r\n  <!--What We Do-->\r\n\r\n  <div class=\"container what\">\r\n    <h2 id=\"what-title\">What We Do</h2>\r\n    <div class=\"row\">\r\n      <div class=\"col-md-4\">\r\n        <i class=\"fas fa-lightbulb\"></i>\r\n        <h3>Educate</h3>\r\n        <p>\r\n          IEEE co-hosts educational CS events with other groups on campus and\r\n          provides hands-on training that is supplemental to Northwestern's\r\n          education in areas like web development and career prep. HackNights\r\n          include presentations with hands-on coding activities, as well as\r\n          catered food for attendees.\r\n        </p>\r\n        <a class=\"btn btn-outline-secondary\" href=\"/educate\" role=\"button\"\r\n          >Learn More</a\r\n        >\r\n      </div>\r\n      <div class=\"col-md-4\">\r\n        <i id=\"compass\" class=\"fas fa-compass\"></i>\r\n        <h3>Explore</h3>\r\n        <p>\r\n          Every year, IEEE helps motivated students develop a side project under\r\n          the leadership of a student mentor. This program provides students\r\n          with the opportunity to gain experience in computer science and become\r\n          a member of IEEE. These projects are then entered in a showcase open\r\n          to all Northwestern students.\r\n        </p>\r\n        <a class=\"btn btn-outline-secondary\" href=\"/explore\" role=\"button\"\r\n          >Learn More</a\r\n        >\r\n      </div>\r\n      <div class=\"col-md-4\">\r\n        <i class=\"fas fa-comments\"></i>\r\n        <h3>Engage</h3>\r\n        <p>\r\n          It is important that IEEE connects with the greater Northwestern\r\n          community, both to foster relationships between the organization and\r\n          other students, as well as ensure that students know what\r\n          opportunities are available to them in computer science. Many of\r\n          IEEE's events are open to all Northwestern students.\r\n        </p>\r\n        <a class=\"btn btn-outline-secondary\" href=\"/engage\" role=\"button\"\r\n          >Learn More</a\r\n        >\r\n      </div>\r\n    </div>\r\n    <hr />\r\n  </div>\r\n\r\n  <!--Exec headshots-->\r\n\r\n  <div class=\"container\">\r\n    <h2 class=\"exec-title\">\r\n      Executive Board\r\n      <br />\r\n      <small>2021-2022</small>\r\n    </h2>\r\n    <div class=\"row\">\r\n      <div *ngFor=\"let headshotItem of headshotItems\" class=\"col-md-4 mem\">\r\n        <img src=\"{{ headshotItem.img }}\" alt=\"{{ headshotItem.alt }}\" />\r\n        <h5 class=\"mem-name\">{{ headshotItem.name }}</h5>\r\n        <p class=\"mem-position\">{{ headshotItem.position }}</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <!--FOOTER-->\r\n  <app-footer></app-footer>\r\n</div>\r\n"
 
 /***/ }),
 

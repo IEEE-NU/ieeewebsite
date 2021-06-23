@@ -59,7 +59,7 @@ export const headshotItems: headshotItem[] = [
   },
   // Linus
   {
-    img: "assets/headshots/blank.jpg",
+    img: "assets/headshots/linus.jpg",
     name: "Linus Okoth",
     position: "Publicity Chair",
     alt: "Pictured: Linus Okoth, Publicity Chair",
