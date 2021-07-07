@@ -10,7 +10,7 @@ export const headshotItems: headshotItem[] = [
   },
   // Jerry
   {
-    img: "assets/headshots/blank.jpg",
+    img: "assets/headshots/jerry.jpg",
     name: "Jerry Okina",
     position: "Co-President",
     alt: "Pictured: Jerry Okina, Co-President",
