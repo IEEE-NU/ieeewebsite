@@ -582,7 +582,7 @@ var headshotItems = [
   },
   // Nicole
   {
-    img: "assets/headshots/blank.jpg",
+    img: "assets/headshots/nicole.jpg",
     name: "Nicole Wojcik",
     position: "Secretary",
     alt: "Pictured: Nicole Wojcik, Secretary",
