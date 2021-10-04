@@ -129,5 +129,10 @@
       }
     }
   },
-  "defaultProject": "ieeewebsite"
+  "defaultProject": "ieeewebsite",
+  "cli": {
+    "analyticsSharing": {
+      "tracking": "G-TNVNMJ48WN"
+    }
+  }
 }

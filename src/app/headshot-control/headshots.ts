@@ -18,9 +18,9 @@ export const headshotItems: headshotItem[] = [
   // Si Woo
   {
     img: "assets/headshots/siwoo.jpg",
-    name: "Si Woo Kim",
+    name: "Si Woo Park",
     position: "Technical Program Director",
-    alt: "Pictured: Si Woo Kim, Technical Program Director",
+    alt: "Pictured: Si Woo Park, Technical Program Director",
   },
   // Tim
   {
