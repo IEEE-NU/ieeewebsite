@@ -31,7 +31,7 @@ const Home = () => {
         
         <div className="mt-8 text-sm text-violet-400">
         <Link to="about#our_team">
-        <u>See our 2021-22 executive board here.</u>
+        <u>See our 2022-23 executive board here.</u>
         </Link>
         </div>
         

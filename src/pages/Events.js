@@ -41,7 +41,7 @@ const Events = () => {
                 <img alt="Old Showcase 2" className="block transition duration-200 ease-out transform hover:scale-110 object-cover w-auto shadow-sm max-h-56" src={ oldshowcase2 }/>
                   <div className="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
                       <div className="bg-purple-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
-                          <span>2021-22</span>
+                          <span>2022-23</span>
                       </div>
                       <h2 className="text-base font-bold sm:text-lg md:text-xl">More Events Coming Soon</h2>
                       <p className="mt-2 text-sm text-gray-500">Our social chairs are busy planning up the latest events for our community! Check back later!</p>

@@ -5,17 +5,13 @@ import Microsoft from '../images/microsoft.svg'
 import Motorola from '../images/motorola.svg'
 import Deloitte from '../images/deloitte.svg'
 import ieeeblack from '../images/logo/ieee_black.svg'
-import Amil from '../images/exec/2021-22/amil.png'
-import Harita from '../images/exec/2021-22/harita.png'
-import James from '../images/exec/2021-22/james.png'
-import Jerry from '../images/exec/2021-22/jerry.png'
-import Linus from '../images/exec/2021-22/linus.png'
-import Molly from '../images/exec/2021-22/molly.png'
-import Nicole from '../images/exec/2021-22/nicole.png'
-import Sengdao from '../images/exec/2021-22/sengdao.png'
-import Siwoo from '../images/exec/2021-22/siwoo.png'
-import Tim from '../images/exec/2021-22/tim.jpg'
+import Evan from '../images/exec/2022-23/evan.png'
+import Sengdao from '../images/exec/2022-23/sengdao.png'
+import Tim from '../images/exec/2022-23/tim.jpg'
+import Anna from '../images/exec/2022-23/anna.png'
+import Carol from '../images/exec/2022-23/carol.png'
 import Alan from '../images/sponsors/alan-sahakian.jpg'
+import Sean from '../images/exec/2022-23/sean.png'
 import { Link } from 'react-router-dom'
 
 const About = () => {
@@ -111,17 +107,17 @@ const About = () => {
     <span className="absolute bottom-0 left-0"> </span>
     
     <div className="relative px-16 mx-auto max-w-7xl">
-      <p className="font-medium tracking-wide text-purple-700 uppercase"><span className="font-semibold">2021-22</span> | EXECUTIVE BOARD</p>
+      <p className="font-medium tracking-wide text-purple-700 uppercase"><span className="font-semibold">2022-23</span> | EXECUTIVE BOARD</p>
       <h2 className="relative max-w-lg mt-5 mb-10 text-3xl font-semibold leading-tight lg:text-4xl">Meet our incredible team of amazing individuals!</h2>
       <div className="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blue-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Amil } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ Tim } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3 className="">Amil Dravid</h3>
+              <h3 className="">Timothy Sinaga</h3>
               <p className="text-purple-700">Co-President</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
@@ -133,11 +129,11 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Jerry } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ Sengdao } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Jerry Okina</h3>
+              <h3>Sengdao Inthavong</h3>
               <p className="text-purple-700">Co-President</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
@@ -149,11 +145,11 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-pink-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Siwoo } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src="" alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3 className="">Si Woo Park</h3>
+              <h3 className="">Kelly Mei</h3>
               <p className="text-purple-700">Technical Director</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
@@ -165,15 +161,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img alt="" className="relative z-20 w-full rounded-full" src={ Tim }/>
+            <img alt="" className="relative z-20 w-full rounded-full" src={ Evan }/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Timothy Sinaga</h3>
+              <h3>Evan Waite</h3>
               <p className="text-purple-700">Treasurer</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Sophomore / Computer Science
+              Junior / CS &amp; Comp. Engineering
             </div>
           </div>
         </div>
@@ -181,11 +177,11 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Nicole } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src="" alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Nicole Wojcik</h3>
+              <h3>Emily Wei</h3>
               <p className="text-purple-700">Secretary</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
@@ -197,11 +193,11 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-pink-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Sengdao } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ Anna } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Sengdao Inthavong</h3>
+              <h3>Anna Cai</h3>
               <p className="text-purple-700">Webmaster</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
@@ -213,15 +209,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ James } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ Carol } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>James Liu</h3>
-              <p className="text-purple-700">Co-Social Chair</p>
+              <h3>Carol Liu</h3>
+              <p className="text-purple-700">Social Chair</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Sophomore / Comp. Engineering
+              Junior / Applied Math
             </div>
           </div>
         </div>
@@ -229,31 +225,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blue-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Molly } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ Sean } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Molly Schneck</h3>
-              <p className="text-purple-700">Co-Social Chair</p>
-            </div>
-            <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Junior / Computer Science
-            </div>
-          </div>
-        </div>
-        
-        <div className="flex flex-col items-center justify-center col-span-1">
-          <div className="relative p-5">
-            <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blue-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Linus } alt=""/>
-          </div>
-          <div className="mt-3 space-y-2 text-center">
-            <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Linus Okoth</h3>
+              <h3>Sean Han</h3>
               <p className="text-purple-700">Publicity Chair</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Junior / Computer Science
+              Sophomore / Computer Science
             </div>
           </div>
         </div>
@@ -261,11 +241,11 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Harita } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src="" alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Harita Duggirala</h3>
+              <h3>Winston Ding</h3>
               <p className="text-purple-700">Outreach Chair</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
@@ -284,7 +264,7 @@ const About = () => {
     <span className="absolute bottom-0 left-0"> </span>
     
     <div className="relative px-16 mx-auto max-w-7xl">
-      <p className="font-medium tracking-wide text-purple-700 uppercase"><span className="font-semibold">2021-22</span> | Faculty Sponsor</p>
+      <p className="font-medium tracking-wide text-purple-700 uppercase"><span className="font-semibold">2022-23</span> | Faculty Sponsor</p>
       <h2 className="relative max-w-lg mt-5 mb-10 text-3xl font-semibold leading-tight lg:text-4xl">A huge thank you from us to our faculty sponsor!</h2>
       <div className="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
         <div className="flex flex-col items-center justify-center col-span-1">
