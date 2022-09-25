@@ -14,6 +14,7 @@ import Alan from '../images/sponsors/alan-sahakian.jpg'
 import Sean from '../images/exec/2022-23/sean.png'
 import Kelly from '../images/exec/2022-23/kelly.png'
 import Emily from '../images/exec/2022-23/emily.png'
+import Winston from '../images/exec/2022-23/winston.png'
 import anonymous from '../images/anonymous.svg'
 import { Link } from 'react-router-dom'
 
@@ -244,7 +245,7 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={anonymous} alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ Winston } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
@@ -252,7 +253,7 @@ const About = () => {
               <p className="text-purple-700">Outreach Chair</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Sophomore / Computer Science
+              Junior / Computer Science
             </div>
           </div>
         </div>

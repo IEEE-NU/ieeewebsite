@@ -18,7 +18,7 @@ const IE3 = () => {
                   <p className="text-lg text-gray-600">2. Technical Difficulty</p>
                   <p className="text-lg text-gray-600">3. Effectiveness of Project's Execution</p>
                 </ol>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL6O7xxl3xvp5xerTc6hD9Dv7iu0bQK_8tjJonKYUIGnk10w/viewform?usp=sf_link" target="_blank" rel="noreferrer" className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md shadow hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo md:py-4 md:text-lg md:px-10">Apply</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfD1opUEVuyGyKEp70JlZRAq8jMuNMXAvob8LNxA46Meh-jvA/viewform?usp=sf_link" target="_blank" rel="noreferrer" className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md shadow hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo md:py-4 md:text-lg md:px-10">Apply</a>
             </div>
             <div className="w-full lg:w-1/2">
                 <blockquote className="flex items-center justify-between w-full col-span-1 p-6 bg-white rounded-lg shadow">
