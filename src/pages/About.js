@@ -1,9 +1,5 @@
 import React from 'react'
 import Originals from '../images/originals.jpg'
-import Google from '../images/google.svg'
-import Microsoft from '../images/microsoft.svg'
-import Motorola from '../images/motorola.svg'
-import Deloitte from '../images/deloitte.svg'
 import ieeeblack from '../images/logo/ieee_black.svg'
 import Evan from '../images/exec/2022-23/evan.png'
 import Sengdao from '../images/exec/2022-23/sengdao.png'
@@ -49,18 +45,6 @@ const About = () => {
             <div className="bg-gray-100">
             <div className="max-w-screen-xl px-4 py-10 mx-auto sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
-            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                <img className="h-12 text-gray-500 fill-current" alt="" src={ Google }/>
-            </div>
-            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                <img className="h-12 text-gray-500 fill-current" alt="" src={ Microsoft }/>
-            </div>
-            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                <img className="h-12 text-gray-500 fill-current" alt="" src={ Motorola }/>
-            </div>
-            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                <img className="h-12 text-gray-500 fill-current" alt="" src={ Deloitte }/> 
-            </div>
             </div>
             </div>
             </div>

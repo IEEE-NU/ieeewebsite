@@ -57,17 +57,9 @@ const Home = () => {
         The IE3 Program <span className="block text-purple-500 hover:text-purple-700 transition duration-500 xl:inline"> has begun!</span>
         </h5>
         <p className="py-5 mb-5 text-gray-800">
-        Applications for the 2022-23 school year are now live!
+        Applications for the 2022-23 school year are now closed.
         </p>
         <div className="flex justify-center">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfD1opUEVuyGyKEp70JlZRAq8jMuNMXAvob8LNxA46Meh-jvA/viewform?usp=sf_link">
-        <button type="submit"
-        className="inline-flex items-center justify-center h-12 px-6 py-10 sm:py-3 mr-3 font-medium tracking-wide text-white transition duration-200 bg-purple-500 rounded-lg hover:bg-purple-700 focus:shadow-outline focus:outline-none">
-        Apply Today! <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19" className=""></polyline></svg>
-        </button></a>
-        <a href="ie3.html" className="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md transition duration-500 hover:bg-purple-500 hover:text-white">
-        Learn More
-        </a>
         </div>
         </div>
         </div>
