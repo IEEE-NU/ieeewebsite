@@ -18,7 +18,7 @@ const Events = () => {
               <div className="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
                 <img alt="Old Showcase" className="block transition duration-200 ease-out transform hover:scale-110 object-cover w-auto shadow-sm max-h-56" src={ oldshowcase }/>
                   <div className="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
-                      <div className="bg-blue-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                      <div className="bg-blue-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto rounded-full text-xs font-medium uppercase text-white">
                           <span>April 2022</span>
                       </div>
                       <h2 className="text-base font-bold sm:text-lg md:text-xl">IE3 Project Showcase</h2>
@@ -29,7 +29,7 @@ const Events = () => {
               <div className="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
                 <img alt="Food" className="block transition duration-200 ease-out transform hover:scale-110 object-cover w-auto shadow-sm max-h-56" src={ food }/>
                   <div className="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
-                      <div className="bg-green-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                      <div className="bg-green-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto rounded-full text-xs font-medium uppercase text-white">
                           <span>May 2022</span>
                       </div>
                       <h2 className="text-base font-bold sm:text-lg md:text-xl">IEEE Retreat</h2>

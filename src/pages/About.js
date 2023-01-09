@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Originals from '../images/originals.jpg'
 import ieeeblack from '../images/logo/ieee_black.svg'
 import Evan from '../images/exec/2022-23/evan.png'
@@ -11,10 +11,60 @@ import Sean from '../images/exec/2022-23/sean.png'
 import Kelly from '../images/exec/2022-23/kelly.png'
 import Emily from '../images/exec/2022-23/emily.png'
 import Winston from '../images/exec/2022-23/winston.png'
+
+import Amil from '../images/exec/2021-22/amil.png'
+import Harita from '../images/exec/2021-22/harita.png'
+import James from '../images/exec/2021-22/james.png'
+import Jerry from '../images/exec/2021-22/jerry.png'
+import Linus from '../images/exec/2021-22/linus.png'
+import Molly from '../images/exec/2021-22/molly.png'
+import Nicole from '../images/exec/2021-22/nicole.png'
+import Siwoo from '../images/exec/2021-22/siwoo.png'
+
 import anonymous from '../images/anonymous.svg'
 import { Link } from 'react-router-dom'
+import { Select, MenuItem, InputLabel, FormControl } from '@mui/material'
 
 const About = () => {
+  let [year, setYear] = useState("2022-23");
+  let [execBoard, setExecBoard] = useState(0);
+
+  let execBoardData = [
+    // 2022-2023 board
+    {
+      co_president_one: [Tim, "Timothy Sinaga", "Junior / Computer Science"],
+      co_president_two: [Sengdao, "Sengdao Inthavong", "Junior / Computer Science"],
+      technical_director: [Kelly, "Kelly Mei", "Junior / CS & Design"],
+      treasurer: [Evan, "Evan Waite", "Junior / CS & Comp. Engineering"],
+      secretary: [Emily, "Emily Wei", "Sophomore / Computer Science"],
+      webmaster: [Anna, "Anna Cai", "Sophomore / Computer Science"],
+      social_chair: [Carol, "Carol Liu", "Junior / Applied Math"],
+      publicity_chair: [Sean, "Sean Han", "Sophomore / Computer Science"],
+      outreach_chair: [Winston, "Winston Ding", "Junior / Computer Science"]
+    },
+    // 2021-2022 board
+    {
+      co_president_one: [Amil, "Amil Dravid", null],
+      co_president_two: [Jerry, "Jerry Okina", null],
+      technical_director: [Siwoo, "Si Woo Park", null],
+      treasurer: [Tim, "Timothy Sinaga", null],
+      secretary: [Nicole, "Nicole Wojcik", null],
+      webmaster: [Sengdao, "Sengdao Inthavong", null],
+      social_chair: [James, "James Liu", null],
+      publicity_chair: [Linus, "Linus Okoth", null],
+      outreach_chair: [Harita, "Harita Duggirala", null]
+    }
+  ];
+
+  let handleChange = (event) => {
+    setYear(event.target.value);
+    if (event.target.value == "2022-23") {
+      setExecBoard(0);
+    } else if (event.target.value == "2021-22") {
+      setExecBoard(1);
+    }
+  };
+
     return (
         <div className="text-left">
             <div className="my-16 container items-center max-w-6xl px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
@@ -95,21 +145,38 @@ const About = () => {
     <span className="absolute bottom-0 left-0"> </span>
     
     <div className="relative px-16 mx-auto max-w-7xl">
-      <p className="font-medium tracking-wide text-purple-700 uppercase"><span className="font-semibold">2022-23</span> | EXECUTIVE BOARD</p>
-      <h2 className="relative max-w-lg mt-5 mb-10 text-3xl font-semibold leading-tight lg:text-4xl">Meet our incredible team of amazing individuals!</h2>
+      <div className="flex justify-between items-center flex-wrap">
+        <div>
+          <p className="font-medium tracking-wide text-purple-700 uppercase"><span className="font-semibold">{year}</span> | EXECUTIVE BOARD</p>
+          <h2 className="relative max-w-lg mt-5 mb-10 text-3xl font-semibold leading-tight lg:text-4xl">Meet our incredible team of amazing individuals!</h2>
+        </div>
+        <FormControl sx={{ mb: 5, minWidth: 140 }} size="medium">
+          <InputLabel id="demo-simple-select-label">Class Year</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              label="Class Year"
+              value={year}
+              onChange={handleChange}
+            >
+              <MenuItem value={"2022-23"}>2022-2023</MenuItem>
+              <MenuItem value={"2021-22"}>2021-2022</MenuItem>
+            </Select>
+        </FormControl>
+      </div>
       <div className="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blue-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Tim } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ execBoardData[execBoard].co_president_one[0] } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3 className="">Timothy Sinaga</h3>
+              <h3 className="">{ execBoardData[execBoard].co_president_one[1] }</h3>
               <p className="text-purple-700">Co-President</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-               Junior / Computer Science
+              { execBoardData[execBoard].co_president_one[2] }
             </div>
           </div>
         </div>
@@ -117,15 +184,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Sengdao } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ execBoardData[execBoard].co_president_two[0] } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Sengdao Inthavong</h3>
+              <h3>{ execBoardData[execBoard].co_president_two[1] }</h3>
               <p className="text-purple-700">Co-President</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Junior / Computer Science
+            { execBoardData[execBoard].co_president_two[2] }
             </div>
           </div>
         </div>
@@ -133,15 +200,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-pink-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Kelly } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ execBoardData[execBoard].technical_director[0] } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3 className="">Kelly Mei</h3>
+              <h3 className="">{ execBoardData[execBoard].technical_director[1] }</h3>
               <p className="text-purple-700">Technical Director</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Junior / CS &amp; Design
+              { execBoardData[execBoard].technical_director[2] }
             </div>
           </div>
         </div>
@@ -149,15 +216,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img alt="" className="relative z-20 w-full rounded-full" src={ Evan }/>
+            <img alt="" className="relative z-20 w-full rounded-full" src={ execBoardData[execBoard].treasurer[0] }/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Evan Waite</h3>
+              <h3>{ execBoardData[execBoard].treasurer[1] }</h3>
               <p className="text-purple-700">Treasurer</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Junior / CS &amp; Comp. Engineering
+              { execBoardData[execBoard].treasurer[2] }
             </div>
           </div>
         </div>
@@ -165,15 +232,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Emily } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ execBoardData[execBoard].secretary[0] } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Emily Wei</h3>
+              <h3>{ execBoardData[execBoard].secretary[1] }</h3>
               <p className="text-purple-700">Secretary</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Sophomore / Computer Science
+              { execBoardData[execBoard].secretary[2] }
             </div>
           </div>
         </div>
@@ -181,15 +248,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-pink-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Anna } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ execBoardData[execBoard].webmaster[0] } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Anna Cai</h3>
+              <h3>{ execBoardData[execBoard].webmaster[1] }</h3>
               <p className="text-purple-700">Webmaster</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Sophomore / Computer Science
+              { execBoardData[execBoard].webmaster[2] }
             </div>
           </div>
         </div>
@@ -197,15 +264,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Carol } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ execBoardData[execBoard].social_chair[0] } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Carol Liu</h3>
+              <h3>{ execBoardData[execBoard].social_chair[1] }</h3>
               <p className="text-purple-700">Social Chair</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Junior / Applied Math
+            { execBoardData[execBoard].social_chair[2] }
             </div>
           </div>
         </div>
@@ -213,15 +280,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blue-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Sean } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ execBoardData[execBoard].publicity_chair[0] } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Sean Han</h3>
+              <h3>{ execBoardData[execBoard].publicity_chair[1] }</h3>
               <p className="text-purple-700">Publicity Chair</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Sophomore / Computer Science
+            { execBoardData[execBoard].publicity_chair[2] }
             </div>
           </div>
         </div>
@@ -229,15 +296,15 @@ const About = () => {
         <div className="flex flex-col items-center justify-center col-span-1">
           <div className="relative p-5">
             <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-            <img className="relative z-20 w-full rounded-full" src={ Winston } alt=""/>
+            <img className="relative z-20 w-full rounded-full" src={ execBoardData[execBoard].outreach_chair[0] } alt=""/>
           </div>
           <div className="mt-3 space-y-2 text-center">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <h3>Winston Ding</h3>
+              <h3>{ execBoardData[execBoard].outreach_chair[1] }</h3>
               <p className="text-purple-700">Outreach Chair</p>
             </div>
             <div className="relative flex items-center justify-center space-x-3 text-gray-400">
-              Junior / Computer Science
+              { execBoardData[execBoard].outreach_chair[2] }
             </div>
           </div>
         </div>
@@ -276,24 +343,24 @@ const About = () => {
     
     <section className="py-20 bg-white">
         <div
-        class="relative flex flex-col items-center w-full max-w-6xl px-4 py-8 mx-auto text-center rounded-lg shadow-2xl lg:text-left lg:block bg-gradient-to-br from-purple-600 via-indigo-500 to-teal-400 sm:px-6 md:pb-0 md:pt-12 lg:px-12 lg:py-12">
+        className="relative flex flex-col items-center w-full max-w-6xl px-4 py-8 mx-auto text-center rounded-lg shadow-2xl lg:text-left lg:block bg-gradient-to-br from-purple-600 via-indigo-500 to-teal-400 sm:px-6 md:pb-0 md:pt-12 lg:px-12 lg:py-12">
         <h2
-            class="my-4 text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl lg:my-0 xl:text-4xl sm:leading-tight">
-            Interested in <span class="block text-indigo-200 xl:inline">IEEE?</span>
+            className="my-4 text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl lg:my-0 xl:text-4xl sm:leading-tight">
+            Interested in <span className="block text-indigo-200 xl:inline">IEEE?</span>
         </h2>
-        <p class="mt-1 mb-10 text-sm font-medium text-indigo-200 xl:text-base xl:tracking-wider lg:mb-0">
+        <p className="mt-1 mb-10 text-sm font-medium text-indigo-200 xl:text-base xl:tracking-wider lg:mb-0">
             Become a member of our community today!</p>
-        <div class="flex mb-8 lg:mt-6 lg:mb-0">
-            <div class="inline-flex">
+        <div className="flex mb-8 lg:mt-6 lg:mb-0">
+            <div className="inline-flex">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL6O7xxl3xvp5xerTc6hD9Dv7iu0bQK_8tjJonKYUIGnk10w/viewform?usp=sf_link" target="_blank" rel="noreferrer" 
-                    class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300">
+                    className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300">
                     Sign Up Today
                 </a>
             </div>
         </div>
-        <div class="bottom-0 right-0 mb-0 mr-3 lg:absolute lg:-mb-12">
+        <div className="bottom-0 right-0 mb-0 mr-3 lg:absolute lg:-mb-12">
             <img alt="Conquer clip art" src="https://cdn.devdojo.com/images/september2020/cta-1.png"
-                class="max-w-xs mb-4 opacity-75 md:max-w-2xl lg:max-w-lg xl:mb-0 xl:max-w-md"></img>
+                className="max-w-xs mb-4 opacity-75 md:max-w-2xl lg:max-w-lg xl:mb-0 xl:max-w-md"></img>
         </div>
     </div>
     </section>
