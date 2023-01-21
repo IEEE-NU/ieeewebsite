@@ -1,7 +1,9 @@
 import React from 'react'
 import oldshowcase from '../images/ie3/old_ie3showcase.png'
+import badhacks from '../images/ie3/badhacks.png'
 import oldshowcase2 from '../images/ie3/old_ie3showcase2.png'
 import food from '../images/ie3/food.png';
+import badhacksflyer from '../images/ie3/badhacks_flyer.png'
 
 const Events = () => {
     return (
@@ -16,17 +18,17 @@ const Events = () => {
           <div className="px-6 grid grid-cols-12 col-span-6 md:col-span-12 gap-7">
 
               <div className="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
-                <img alt="Old Showcase" className="block transition duration-200 ease-out transform hover:scale-110 object-cover w-auto shadow-sm max-h-56" src={ oldshowcase }/>
+                <img alt="Old Showcase" className="block transition duration-200 ease-out transform hover:scale-110 object-cover w-auto shadow-sm max-h-56" src={ badhacks }/>
                   <div className="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
                       <div className="bg-blue-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto rounded-full text-xs font-medium uppercase text-white">
-                          <span>April 2022</span>
+                          <span>February 11, 2023</span>
                       </div>
-                      <h2 className="text-base font-bold sm:text-lg md:text-xl">IE3 Project Showcase</h2>
-                     <p className="mt-2 text-sm text-gray-500">Check out the software and hardware projects our Northwestern students made! Location TBA.</p>
+                      <h2 className="text-base font-bold sm:text-lg md:text-xl">BadHacks Hackathon</h2>
+                     <p className="mt-2 text-sm text-gray-500">A 12-hour hackathon where you make your worst ideas come to life! <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" href="https://www.instagram.com/p/CniKfb0vClu/">Learn more</a></p>
                   </div>
               </div>
 
-              <div className="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+              {/* <div className="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
                 <img alt="Food" className="block transition duration-200 ease-out transform hover:scale-110 object-cover w-auto shadow-sm max-h-56" src={ food }/>
                   <div className="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
                       <div className="bg-green-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto rounded-full text-xs font-medium uppercase text-white">
@@ -35,7 +37,7 @@ const Events = () => {
                       <h2 className="text-base font-bold sm:text-lg md:text-xl">IEEE Retreat</h2>
                      <p className="mt-2 text-sm text-gray-500">Our current exec will treat all inaugurated members to lunch down in Chicago!</p>
                   </div>
-              </div>
+              </div> */}
 
               <div className="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
                 <img alt="Old Showcase 2" className="block transition duration-200 ease-out transform hover:scale-110 object-cover w-auto shadow-sm max-h-56" src={ oldshowcase2 }/>
@@ -47,9 +49,9 @@ const Events = () => {
                       <p className="mt-2 text-sm text-gray-500">Our social chairs are busy planning up the latest events for our community! Check back later!</p>
                   </div>
               </div>
-
           </div>
       </div>
+      {/* <img src={badhacksflyer}></img> */}
   </div>
 </section>
         )

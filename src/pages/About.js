@@ -44,15 +44,15 @@ const About = () => {
     },
     // 2021-2022 board
     {
-      co_president_one: [Amil, "Amil Dravid", null],
-      co_president_two: [Jerry, "Jerry Okina", null],
-      technical_director: [Siwoo, "Si Woo Park", null],
-      treasurer: [Tim, "Timothy Sinaga", null],
-      secretary: [Nicole, "Nicole Wojcik", null],
-      webmaster: [Sengdao, "Sengdao Inthavong", null],
-      social_chair: [James, "James Liu", null],
-      publicity_chair: [Linus, "Linus Okoth", null],
-      outreach_chair: [Harita, "Harita Duggirala", null]
+      co_president_one: [Amil, "Amil Dravid", "Computer Science"],
+      co_president_two: [Jerry, "Jerry Okina", "Computer Science"],
+      technical_director: [Siwoo, "Si Woo Park", "Computer Science"],
+      treasurer: [Tim, "Timothy Sinaga", "Computer Science"],
+      secretary: [Nicole, "Nicole Wojcik", "Computer Science"],
+      webmaster: [Sengdao, "Sengdao Inthavong", "Computer Science"],
+      social_chair: [James, "James Liu", "Comp. Engineering"],
+      publicity_chair: [Linus, "Linus Okoth", "Computer Science"],
+      outreach_chair: [Harita, "Harita Duggirala", "Computer Science"]
     }
   ];
 
